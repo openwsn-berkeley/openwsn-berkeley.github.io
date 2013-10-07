@@ -1,0 +1,567 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>moteConnector Package &mdash; OpenVisualizer 1.6 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.6',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OpenVisualizer 1.6 documentation" href="index.html" />
+    <link rel="next" title="moteProbe Package" href="moteProbe.html" />
+    <link rel="prev" title="lbrClient Package" href="lbrClient.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="moteProbe.html" title="moteProbe Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="lbrClient.html" title="lbrClient Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="moteconnector-package">
+<h1>moteConnector Package<a class="headerlink" href="#moteconnector-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-moteConnector.GenStackDefines">
+<span id="genstackdefines-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">GenStackDefines</span></tt> Module<a class="headerlink" href="#module-moteConnector.GenStackDefines" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="moteConnector.GenStackDefines.genComponentCodes">
+<tt class="descclassname">moteConnector.GenStackDefines.</tt><tt class="descname">genComponentCodes</tt><big>(</big><big>)</big><a class="headerlink" href="#moteConnector.GenStackDefines.genComponentCodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="moteConnector.GenStackDefines.genErrorDescriptions">
+<tt class="descclassname">moteConnector.GenStackDefines.</tt><tt class="descname">genErrorDescriptions</tt><big>(</big><big>)</big><a class="headerlink" href="#moteConnector.GenStackDefines.genErrorDescriptions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="moteConnector.GenStackDefines.main">
+<tt class="descclassname">moteConnector.GenStackDefines.</tt><tt class="descname">main</tt><big>(</big><big>)</big><a class="headerlink" href="#moteConnector.GenStackDefines.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.OpenParser">
+<span id="openparser-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">OpenParser</span></tt> Module<a class="headerlink" href="#module-moteConnector.OpenParser" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.OpenParser.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.OpenParser.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.OpenParser.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.OpenParser.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.OpenParser.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.OpenParser.OpenParser">
+<em class="property">class </em><tt class="descclassname">moteConnector.OpenParser.</tt><tt class="descname">OpenParser</tt><a class="headerlink" href="#moteConnector.OpenParser.OpenParser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#moteConnector.Parser.Parser" title="moteConnector.Parser.Parser"><tt class="xref py py-class docutils literal"><span class="pre">moteConnector.Parser.Parser</span></tt></a></p>
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.HEADER_LENGTH">
+<tt class="descname">HEADER_LENGTH</tt><em class="property"> = 1</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.HEADER_LENGTH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_ACTION_NO">
+<tt class="descname">SERFRAME_ACTION_NO</tt><em class="property"> = 78</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_ACTION_NO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_ACTION_TOGGLE">
+<tt class="descname">SERFRAME_ACTION_TOGGLE</tt><em class="property"> = 84</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_ACTION_TOGGLE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_ACTION_YES">
+<tt class="descname">SERFRAME_ACTION_YES</tt><em class="property"> = 89</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_ACTION_YES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_CRITICAL">
+<tt class="descname">SERFRAME_MOTE2PC_CRITICAL</tt><em class="property"> = 67</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_CRITICAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_DATA">
+<tt class="descname">SERFRAME_MOTE2PC_DATA</tt><em class="property"> = 68</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_DATA" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_ERROR">
+<tt class="descname">SERFRAME_MOTE2PC_ERROR</tt><em class="property"> = 69</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_ERROR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_INFO">
+<tt class="descname">SERFRAME_MOTE2PC_INFO</tt><em class="property"> = 73</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_INFO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_REQUEST">
+<tt class="descname">SERFRAME_MOTE2PC_REQUEST</tt><em class="property"> = 82</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_REQUEST" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_STATUS">
+<tt class="descname">SERFRAME_MOTE2PC_STATUS</tt><em class="property"> = 83</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_MOTE2PC_STATUS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_DATA">
+<tt class="descname">SERFRAME_PC2MOTE_DATA</tt><em class="property"> = 68</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_DATA" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_SETBRIDGE">
+<tt class="descname">SERFRAME_PC2MOTE_SETBRIDGE</tt><em class="property"> = 66</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_SETBRIDGE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_SETROOT">
+<tt class="descname">SERFRAME_PC2MOTE_SETROOT</tt><em class="property"> = 82</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_SETROOT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERICMPv6ECHO">
+<tt class="descname">SERFRAME_PC2MOTE_TRIGGERICMPv6ECHO</tt><em class="property"> = 69</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERICMPv6ECHO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERSERIALECHO">
+<tt class="descname">SERFRAME_PC2MOTE_TRIGGERSERIALECHO</tt><em class="property"> = 83</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERSERIALECHO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERTCPINJECT">
+<tt class="descname">SERFRAME_PC2MOTE_TRIGGERTCPINJECT</tt><em class="property"> = 84</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERTCPINJECT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERUDPINJECT">
+<tt class="descname">SERFRAME_PC2MOTE_TRIGGERUDPINJECT</tt><em class="property"> = 85</em><a class="headerlink" href="#moteConnector.OpenParser.OpenParser.SERFRAME_PC2MOTE_TRIGGERUDPINJECT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.Parser">
+<span id="parser-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">Parser</span></tt> Module<a class="headerlink" href="#module-moteConnector.Parser" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.Parser.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.Parser.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.Parser.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.Parser.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.Parser.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.Parser.Parser">
+<em class="property">class </em><tt class="descclassname">moteConnector.Parser.</tt><tt class="descname">Parser</tt><big>(</big><em>headerLength</em><big>)</big><a class="headerlink" href="#moteConnector.Parser.Parser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.Parser.Parser.parseInput">
+<tt class="descname">parseInput</tt><big>(</big><em>input</em><big>)</big><a class="headerlink" href="#moteConnector.Parser.Parser.parseInput" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.Parser.ParsingKey">
+<em class="property">class </em><tt class="descclassname">moteConnector.Parser.</tt><tt class="descname">ParsingKey</tt><big>(</big><em>index</em>, <em>val</em>, <em>parser</em><big>)</big><a class="headerlink" href="#moteConnector.Parser.ParsingKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.ParserData">
+<span id="parserdata-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">ParserData</span></tt> Module<a class="headerlink" href="#module-moteConnector.ParserData" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.ParserData.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserData.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.ParserData.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.ParserData.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.ParserData.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.ParserData.ParserData">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserData.</tt><tt class="descname">ParserData</tt><a class="headerlink" href="#moteConnector.ParserData.ParserData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#moteConnector.Parser.Parser" title="moteConnector.Parser.Parser"><tt class="xref py py-class docutils literal"><span class="pre">moteConnector.Parser.Parser</span></tt></a></p>
+<dl class="attribute">
+<dt id="moteConnector.ParserData.ParserData.HEADER_LENGTH">
+<tt class="descname">HEADER_LENGTH</tt><em class="property"> = 2</em><a class="headerlink" href="#moteConnector.ParserData.ParserData.HEADER_LENGTH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserData.ParserData.IPHC_DAM">
+<tt class="descname">IPHC_DAM</tt><em class="property"> = 0</em><a class="headerlink" href="#moteConnector.ParserData.ParserData.IPHC_DAM" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserData.ParserData.IPHC_SAM">
+<tt class="descname">IPHC_SAM</tt><em class="property"> = 4</em><a class="headerlink" href="#moteConnector.ParserData.ParserData.IPHC_SAM" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserData.ParserData.MSPERSLOT">
+<tt class="descname">MSPERSLOT</tt><em class="property"> = 15</em><a class="headerlink" href="#moteConnector.ParserData.ParserData.MSPERSLOT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.ParserData.ParserData.parseInput">
+<tt class="descname">parseInput</tt><big>(</big><em>input</em><big>)</big><a class="headerlink" href="#moteConnector.ParserData.ParserData.parseInput" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.ParserException">
+<span id="parserexception-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">ParserException</span></tt> Module<a class="headerlink" href="#module-moteConnector.ParserException" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="moteConnector.ParserException.ParserException">
+<em class="property">exception </em><tt class="descclassname">moteConnector.ParserException.</tt><tt class="descname">ParserException</tt><big>(</big><em>errorCode</em>, <em>details=None</em><big>)</big><a class="headerlink" href="#moteConnector.ParserException.ParserException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">exceptions.Exception</span></tt></p>
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.DESERIALIZE">
+<tt class="descname">DESERIALIZE</tt><em class="property"> = 6</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.DESERIALIZE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.GENERIC">
+<tt class="descname">GENERIC</tt><em class="property"> = 1</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.GENERIC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.NO_KEY">
+<tt class="descname">NO_KEY</tt><em class="property"> = 5</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.NO_KEY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.TOO_SHORT">
+<tt class="descname">TOO_SHORT</tt><em class="property"> = 2</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.TOO_SHORT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.UNKNOWN_OPTION">
+<tt class="descname">UNKNOWN_OPTION</tt><em class="property"> = 4</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.UNKNOWN_OPTION" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.WRONG_LENGTH">
+<tt class="descname">WRONG_LENGTH</tt><em class="property"> = 3</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.WRONG_LENGTH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserException.ParserException.descriptions">
+<tt class="descname">descriptions</tt><em class="property"> = {1: 'generic parsing error', 2: 'input too short', 3: 'input of the wrong length', 4: 'no parser key', 5: 'no key', 6: 'deserialization error'}</em><a class="headerlink" href="#moteConnector.ParserException.ParserException.descriptions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.ParserInfoErrorCritical">
+<span id="parserinfoerrorcritical-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">ParserInfoErrorCritical</span></tt> Module<a class="headerlink" href="#module-moteConnector.ParserInfoErrorCritical" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.ParserInfoErrorCritical.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserInfoErrorCritical.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.ParserInfoErrorCritical.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserInfoErrorCritical.</tt><tt class="descname">ParserInfoErrorCritical</tt><big>(</big><em>severity</em><big>)</big><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#moteConnector.Parser.Parser" title="moteConnector.Parser.Parser"><tt class="xref py py-class docutils literal"><span class="pre">moteConnector.Parser.Parser</span></tt></a></p>
+<dl class="attribute">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.HEADER_LENGTH">
+<tt class="descname">HEADER_LENGTH</tt><em class="property"> = 1</em><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.HEADER_LENGTH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_ALL">
+<tt class="descname">SEVERITY_ALL</tt><em class="property"> = [73, 69, 67]</em><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_ALL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_CRITICAL">
+<tt class="descname">SEVERITY_CRITICAL</tt><em class="property"> = 67</em><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_CRITICAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_ERROR">
+<tt class="descname">SEVERITY_ERROR</tt><em class="property"> = 69</em><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_ERROR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_INFO">
+<tt class="descname">SEVERITY_INFO</tt><em class="property"> = 73</em><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.SEVERITY_INFO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.parseInput">
+<tt class="descname">parseInput</tt><big>(</big><em>input</em><big>)</big><a class="headerlink" href="#moteConnector.ParserInfoErrorCritical.ParserInfoErrorCritical.parseInput" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.ParserStatus">
+<span id="parserstatus-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">ParserStatus</span></tt> Module<a class="headerlink" href="#module-moteConnector.ParserStatus" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.ParserStatus.FieldParsingKey">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserStatus.</tt><tt class="descname">FieldParsingKey</tt><big>(</big><em>index</em>, <em>val</em>, <em>name</em>, <em>structure</em>, <em>fields</em><big>)</big><a class="headerlink" href="#moteConnector.ParserStatus.FieldParsingKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.ParserStatus.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserStatus.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.ParserStatus.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.ParserStatus.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.ParserStatus.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.ParserStatus.ParserStatus">
+<em class="property">class </em><tt class="descclassname">moteConnector.ParserStatus.</tt><tt class="descname">ParserStatus</tt><a class="headerlink" href="#moteConnector.ParserStatus.ParserStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#moteConnector.Parser.Parser" title="moteConnector.Parser.Parser"><tt class="xref py py-class docutils literal"><span class="pre">moteConnector.Parser.Parser</span></tt></a></p>
+<dl class="attribute">
+<dt id="moteConnector.ParserStatus.ParserStatus.HEADER_LENGTH">
+<tt class="descname">HEADER_LENGTH</tt><em class="property"> = 4</em><a class="headerlink" href="#moteConnector.ParserStatus.ParserStatus.HEADER_LENGTH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.ParserStatus.ParserStatus.parseInput">
+<tt class="descname">parseInput</tt><big>(</big><em>input</em><big>)</big><a class="headerlink" href="#moteConnector.ParserStatus.ParserStatus.parseInput" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.SerialTester">
+<span id="serialtester-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">SerialTester</span></tt> Module<a class="headerlink" href="#module-moteConnector.SerialTester" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.SerialTester.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.SerialTester.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.SerialTester.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.SerialTester.SerialTester">
+<em class="property">class </em><tt class="descclassname">moteConnector.SerialTester.</tt><tt class="descname">SerialTester</tt><big>(</big><em>moteProbeIp</em>, <em>moteProbeTcpPort</em>, <em>moteProbeSerialPort</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="eventBus.html#eventBus.eventBusClient.eventBusClient" title="eventBus.eventBusClient.eventBusClient"><tt class="xref py py-class docutils literal"><span class="pre">eventBus.eventBusClient.eventBusClient</span></tt></a></p>
+<dl class="attribute">
+<dt id="moteConnector.SerialTester.SerialTester.DFLT_NUM_TESTPKT">
+<tt class="descname">DFLT_NUM_TESTPKT</tt><em class="property"> = 20</em><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.DFLT_NUM_TESTPKT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.SerialTester.SerialTester.DFLT_TESTPKT_LENGTH">
+<tt class="descname">DFLT_TESTPKT_LENGTH</tt><em class="property"> = 10</em><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.DFLT_TESTPKT_LENGTH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteConnector.SerialTester.SerialTester.DFLT_TIMEOUT">
+<tt class="descname">DFLT_TIMEOUT</tt><em class="property"> = 5</em><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.DFLT_TIMEOUT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.formatList">
+<tt class="descname">formatList</tt><big>(</big><em>l</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.formatList" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.getStats">
+<tt class="descname">getStats</tt><big>(</big><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.getStats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.quit">
+<tt class="descname">quit</tt><big>(</big><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.quit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.setNumTestPkt">
+<tt class="descname">setNumTestPkt</tt><big>(</big><em>newNum</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.setNumTestPkt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.setTestPktLength">
+<tt class="descname">setTestPktLength</tt><big>(</big><em>newLength</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.setTestPktLength" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.setTimeout">
+<tt class="descname">setTimeout</tt><big>(</big><em>newTimeout</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.setTimeout" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.setTrace">
+<tt class="descname">setTrace</tt><big>(</big><em>newTraceCb</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.setTrace" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteConnector.SerialTester.SerialTester.test">
+<tt class="descname">test</tt><big>(</big><em>blocking=True</em><big>)</big><a class="headerlink" href="#moteConnector.SerialTester.SerialTester.test" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteConnector.StackDefines">
+<span id="stackdefines-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">StackDefines</span></tt> Module<a class="headerlink" href="#module-moteConnector.StackDefines" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-moteConnector.moteConnector">
+<span id="moteconnector-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">moteConnector</span></tt> Module<a class="headerlink" href="#module-moteConnector.moteConnector" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteConnector.moteConnector.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteConnector.moteConnector.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteConnector.moteConnector.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteConnector.moteConnector.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteConnector.moteConnector.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteConnector.moteConnector.moteConnector">
+<em class="property">class </em><tt class="descclassname">moteConnector.moteConnector.</tt><tt class="descname">moteConnector</tt><big>(</big><em>serialport</em><big>)</big><a class="headerlink" href="#moteConnector.moteConnector.moteConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="eventBus.html#eventBus.eventBusClient.eventBusClient" title="eventBus.eventBusClient.eventBusClient"><tt class="xref py py-class docutils literal"><span class="pre">eventBus.eventBusClient.eventBusClient</span></tt></a></p>
+<dl class="method">
+<dt id="moteConnector.moteConnector.moteConnector.quit">
+<tt class="descname">quit</tt><big>(</big><big>)</big><a class="headerlink" href="#moteConnector.moteConnector.moteConnector.quit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">moteConnector Package</a><ul>
+<li><a class="reference internal" href="#module-moteConnector.GenStackDefines"><tt class="docutils literal"><span class="pre">GenStackDefines</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.OpenParser"><tt class="docutils literal"><span class="pre">OpenParser</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.Parser"><tt class="docutils literal"><span class="pre">Parser</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.ParserData"><tt class="docutils literal"><span class="pre">ParserData</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.ParserException"><tt class="docutils literal"><span class="pre">ParserException</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.ParserInfoErrorCritical"><tt class="docutils literal"><span class="pre">ParserInfoErrorCritical</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.ParserStatus"><tt class="docutils literal"><span class="pre">ParserStatus</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.SerialTester"><tt class="docutils literal"><span class="pre">SerialTester</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.StackDefines"><tt class="docutils literal"><span class="pre">StackDefines</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteConnector.moteConnector"><tt class="docutils literal"><span class="pre">moteConnector</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="lbrClient.html"
+                        title="previous chapter">lbrClient Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="moteProbe.html"
+                        title="next chapter">moteProbe Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/moteConnector.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="moteProbe.html" title="moteProbe Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="lbrClient.html" title="lbrClient Package"
+             >previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Regents of the University of California.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
