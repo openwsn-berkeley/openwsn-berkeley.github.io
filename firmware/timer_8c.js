@@ -1,0 +1,26 @@
+var timer_8c =
+[
+    [ "TIMER0_IRQHandler", "timer_8c.html#a5f89e5f7418d3a10f49b2faeab3711dd", null ],
+    [ "TIMER1_IRQHandler", "timer_8c.html#a92d71bbc9344a6aaf8858148035f3f9d", null ],
+    [ "TIMER2_IRQHandler", "timer_8c.html#a12c8b827e5eab9d3f93d56f858e735a3", null ],
+    [ "TIMER3_IRQHandler", "timer_8c.html#aafa0645ef8198bcee197a6966c48efd8", null ],
+    [ "timer_disable", "timer_8c.html#adf4ffc07f7cab4b384525dffcf9d3da7", null ],
+    [ "timer_enable", "timer_8c.html#a261e916af83312de95215baca761652c", null ],
+    [ "timer_get_capture_value", "timer_8c.html#a16fff3b8962b1ead8927f94dfe145b2f", null ],
+    [ "timer_get_current_value", "timer_8c.html#a304d3a392d0acd97595c1e95a7096514", null ],
+    [ "timer_init", "timer_8c.html#ad40095c37f8a385aa908674179929a57", null ],
+    [ "timer_reset", "timer_8c.html#acf6eee99c308746090e36d0f559ec622", null ],
+    [ "timer_reset_compare", "timer_8c.html#a306dcf6ed8b202e005ac1fbacc63e6a3", null ],
+    [ "timer_set_capture", "timer_8c.html#a06a7ad3f5233956e78fa5d8bf793eeae", null ],
+    [ "timer_set_compare", "timer_8c.html#ac4b7f6c6730875016ad9c66968dcba57", null ],
+    [ "timer_set_isr_capture_hook", "timer_8c.html#a63ebae3e54ab11263b789f18b3c90b1f", null ],
+    [ "timer_set_isr_compare_hook", "timer_8c.html#a15673d92665b018557526396bc216e56", null ],
+    [ "timer_capture_isr_hook_0", "timer_8c.html#a5111cbc77c9290ceecc50f8e753eea81", null ],
+    [ "timer_capture_isr_hook_1", "timer_8c.html#ae775e14f7de9c797337974dcd130e924", null ],
+    [ "timer_capture_isr_hook_2", "timer_8c.html#a5c585b07faa4c05e0a9abec95eedb887", null ],
+    [ "timer_capture_isr_hook_3", "timer_8c.html#ab50fd2dd36f24258998934f21727168c", null ],
+    [ "timer_compare_isr_hook_0", "timer_8c.html#aa5c541c90387b27c86de6d5fbf6b234e", null ],
+    [ "timer_compare_isr_hook_1", "timer_8c.html#ae84de9a2dbb8d750fa700cf9b402053b", null ],
+    [ "timer_compare_isr_hook_2", "timer_8c.html#a60dc13d16d4c81c363c9b5954fd1a113", null ],
+    [ "timer_compare_isr_hook_3", "timer_8c.html#a07f6e2cf95e03dc7ac3d4581e6187191", null ]
+];
