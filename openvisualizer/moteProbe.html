@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>moteProbe Package &mdash; OpenVisualizer 1.6 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.6',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OpenVisualizer 1.6 documentation" href="index.html" />
+    <link rel="next" title="moteState Package" href="moteState.html" />
+    <link rel="prev" title="moteConnector Package" href="moteConnector.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="moteState.html" title="moteState Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="moteConnector.html" title="moteConnector Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="moteprobe-package">
+<h1>moteProbe Package<a class="headerlink" href="#moteprobe-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-moteProbe.OpenHdlc">
+<span id="openhdlc-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">OpenHdlc</span></tt> Module<a class="headerlink" href="#module-moteProbe.OpenHdlc" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="moteProbe.OpenHdlc.HdlcException">
+<em class="property">exception </em><tt class="descclassname">moteProbe.OpenHdlc.</tt><tt class="descname">HdlcException</tt><a class="headerlink" href="#moteProbe.OpenHdlc.HdlcException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">exceptions.Exception</span></tt></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="moteProbe.OpenHdlc.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteProbe.OpenHdlc.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteProbe.OpenHdlc.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteProbe.OpenHdlc.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteProbe.OpenHdlc.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="moteProbe.OpenHdlc.OpenHdlc">
+<em class="property">class </em><tt class="descclassname">moteProbe.OpenHdlc.</tt><tt class="descname">OpenHdlc</tt><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.FCS16TAB">
+<tt class="descname">FCS16TAB</tt><em class="property"> = (0, 4489, 8978, 12955, 17956, 22445, 25910, 29887, 35912, 40385, 44890, 48851, 51820, 56293, 59774, 63735, 4225, 264, 13203, 8730, 22181, 18220, 30135, 25662, 40137, 36160, 49115, 44626, 56045, 52068, 63999, 59510, 8450, 12427, 528, 5017, 26406, 30383, 17460, 21949, 44362, 48323, 36440, 40913, 60270, 64231, 51324, 55797, 12675, 8202, 4753, 792, 30631, 26158, 21685, 17724, 48587, 44098, 40665, 36688, 64495, 60006, 55549, 51572, 16900, 21389, 24854, 28831, 1056, 5545, 10034, 14011, 52812, 57285, 60766, 64727, 34920, 39393, 43898, 47859, 21125, 17164, 29079, 24606, 5281, 1320, 14259, 9786, 57037, 53060, 64991, 60502, 39145, 35168, 48123, 43634, 25350, 29327, 16404, 20893, 9506, 13483, 1584, 6073, 61262, 65223, 52316, 56789, 43370, 47331, 35448, 39921, 29575, 25102, 20629, 16668, 13731, 9258, 5809, 1848, 65487, 60998, 56541, 52564, 47595, 43106, 39673, 35696, 33800, 38273, 42778, 46739, 49708, 54181, 57662, 61623, 2112, 6601, 11090, 15067, 20068, 24557, 28022, 31999, 38025, 34048, 47003, 42514, 53933, 49956, 61887, 57398, 6337, 2376, 15315, 10842, 24293, 20332, 32247, 27774, 42250, 46211, 34328, 38801, 58158, 62119, 49212, 53685, 10562, 14539, 2640, 7129, 28518, 32495, 19572, 24061, 46475, 41986, 38553, 34576, 62383, 57894, 53437, 49460, 14787, 10314, 6865, 2904, 32743, 28270, 23797, 19836, 50700, 55173, 58654, 62615, 32808, 37281, 41786, 45747, 19012, 23501, 26966, 30943, 3168, 7657, 12146, 16123, 54925, 50948, 62879, 58390, 37033, 33056, 46011, 41522, 23237, 19276, 31191, 26718, 7393, 3432, 16371, 11898, 59150, 63111, 50204, 54677, 41258, 45219, 33336, 37809, 27462, 31439, 18516, 23005, 11618, 15595, 3696, 8185, 63375, 58886, 54429, 50452, 45483, 40994, 37561, 33584, 31687, 27214, 22741, 18780, 15843, 11370, 7921, 3960)</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.FCS16TAB" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.HDLC_CRCGOOD">
+<tt class="descname">HDLC_CRCGOOD</tt><em class="property"> = 61624</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.HDLC_CRCGOOD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.HDLC_CRCINIT">
+<tt class="descname">HDLC_CRCINIT</tt><em class="property"> = 65535</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.HDLC_CRCINIT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.HDLC_ESCAPE">
+<tt class="descname">HDLC_ESCAPE</tt><em class="property"> = '}'</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.HDLC_ESCAPE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.HDLC_ESCAPE_ESCAPED">
+<tt class="descname">HDLC_ESCAPE_ESCAPED</tt><em class="property"> = ']'</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.HDLC_ESCAPE_ESCAPED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.HDLC_FLAG">
+<tt class="descname">HDLC_FLAG</tt><em class="property"> = '~'</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.HDLC_FLAG" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.HDLC_FLAG_ESCAPED">
+<tt class="descname">HDLC_FLAG_ESCAPED</tt><em class="property"> = '^'</em><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.HDLC_FLAG_ESCAPED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.dehdlcify">
+<tt class="descname">dehdlcify</tt><big>(</big><em>inBuf</em><big>)</big><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.dehdlcify" title="Permalink to this definition">¶</a></dt>
+<dd><p>rief Parse an hdlc frame.</p>
+<p>eturns the extracted frame, or -1 if wrong checksum</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="moteProbe.OpenHdlc.OpenHdlc.hdlcify">
+<tt class="descname">hdlcify</tt><big>(</big><em>inBuf</em><big>)</big><a class="headerlink" href="#moteProbe.OpenHdlc.OpenHdlc.hdlcify" title="Permalink to this definition">¶</a></dt>
+<dd><p>rief Build an hdlc frame.</p>
+<p>ote Use 0x00 for both addr byte, and control byte.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-moteProbe.moteProbe">
+<span id="moteprobe-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">moteProbe</span></tt> Module<a class="headerlink" href="#module-moteProbe.moteProbe" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="moteProbe.moteProbe.NullHandler">
+<em class="property">class </em><tt class="descclassname">moteProbe.moteProbe.</tt><tt class="descname">NullHandler</tt><big>(</big><em>level=0</em><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.NullHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">logging.Handler</span></tt></p>
+<dl class="method">
+<dt id="moteProbe.moteProbe.NullHandler.emit">
+<tt class="descname">emit</tt><big>(</big><em>record</em><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.NullHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="moteProbe.moteProbe.findSerialPorts">
+<tt class="descclassname">moteProbe.moteProbe.</tt><tt class="descname">findSerialPorts</tt><big>(</big><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.findSerialPorts" title="Permalink to this definition">¶</a></dt>
+<dd><p>rief Returns the serial ports of the motes connected to the computer.</p>
+<dl class="docutils">
+<dt>eturns A list of tuples (name,baudrate) where:</dt>
+<dd><ul class="first last simple">
+<li>name is a strings representing a serial port, e.g. &#8216;COM1&#8217;</li>
+<li>baudrate is an int representing the baurate, e.g. 115200</li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="moteProbe.moteProbe.moteProbe">
+<em class="property">class </em><tt class="descclassname">moteProbe.moteProbe.</tt><tt class="descname">moteProbe</tt><big>(</big><em>serialport=None</em>, <em>emulatedMote=None</em><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.moteProbe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></tt></p>
+<dl class="method">
+<dt id="moteProbe.moteProbe.moteProbe.close">
+<tt class="descname">close</tt><big>(</big><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.moteProbe.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteProbe.moteProbe.moteProbe.getSerialPortBaudrate">
+<tt class="descname">getSerialPortBaudrate</tt><big>(</big><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.moteProbe.getSerialPortBaudrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteProbe.moteProbe.moteProbe.getSerialPortName">
+<tt class="descname">getSerialPortName</tt><big>(</big><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.moteProbe.getSerialPortName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="moteProbe.moteProbe.moteProbe.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="headerlink" href="#moteProbe.moteProbe.moteProbe.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">moteProbe Package</a><ul>
+<li><a class="reference internal" href="#module-moteProbe.OpenHdlc"><tt class="docutils literal"><span class="pre">OpenHdlc</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-moteProbe.moteProbe"><tt class="docutils literal"><span class="pre">moteProbe</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="moteConnector.html"
+                        title="previous chapter">moteConnector Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="moteState.html"
+                        title="next chapter">moteState Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/moteProbe.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="moteState.html" title="moteState Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="moteConnector.html" title="moteConnector Package"
+             >previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Regents of the University of California.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
