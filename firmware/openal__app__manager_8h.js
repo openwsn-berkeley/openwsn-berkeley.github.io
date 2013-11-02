@@ -1,0 +1,38 @@
+var openal__app__manager_8h =
+[
+    [ "app_registry_entry_t", "structapp__registry__entry__t.html", "structapp__registry__entry__t" ],
+    [ "volatile_app_data_t", "structvolatile__app__data__t.html", "structvolatile__app__data__t" ],
+    [ "openal_pin_state_t", "structopenal__pin__state__t.html", "structopenal__pin__state__t" ],
+    [ "APP_CURRENT", "openal__app__manager_8h.html#a4e5b78370cf68e674946d727aa30245f", null ],
+    [ "APP_NOT_FOUND", "openal__app__manager_8h.html#a5a3429ed07c8d12b2f21a762cc502d36", null ],
+    [ "APP_SLOT_EMPTY", "openal__app__manager_8h.html#a579e8052db24cc1469d7d549ec0f1f91", null ],
+    [ "NO_OWNER", "openal__app__manager_8h.html#a36699de715a7db3a2f27e6dce8f5f7db", null ],
+    [ "OPENAL_NUM_APPS", "openal__app__manager_8h.html#a082a7e0f54795ac5f1cc348533df32bb", null ],
+    [ "app_registry_entry_t", "openal__app__manager_8h.html#a4ce1d565cc54635a04918a0fe7ffa2e6", null ],
+    [ "app_state_t", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bb", [
+      [ "APP_STATE_TX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba16aacdd1728d5652f32ea5d0cb96375e", null ],
+      [ "APP_STATE_RX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba17432ac7c0b41023ff0fb83003a64ba1", null ],
+      [ "APP_STATE_TX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba16aacdd1728d5652f32ea5d0cb96375e", null ],
+      [ "APP_STATE_RX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba17432ac7c0b41023ff0fb83003a64ba1", null ],
+      [ "APP_STATE_TX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba16aacdd1728d5652f32ea5d0cb96375e", null ],
+      [ "APP_STATE_RX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba17432ac7c0b41023ff0fb83003a64ba1", null ],
+      [ "APP_STATE_TX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba16aacdd1728d5652f32ea5d0cb96375e", null ],
+      [ "APP_STATE_RX", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba17432ac7c0b41023ff0fb83003a64ba1", null ],
+      [ "STOPPED", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba948b2aee15f52b421fa4770c47bcfe8c", null ],
+      [ "RUNNING", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bba1061be6c3fb88d32829cba6f6b2be304", null ],
+      [ "RESTARTING", "openal__app__manager_8h.html#a5bb27460721cc90620d197fabf50d4bbadcc8db9a12e6a02d7e86e4da8f1fa443", null ]
+    ] ],
+    [ "__attribute__", "openal__app__manager_8h.html#a106af0e6c050fe0a1d2b604eb01150e5", null ],
+    [ "openal_app_manager_init", "openal__app__manager_8h.html#acfc2845d9a33e8ba23993893510952b6", null ],
+    [ "openal_check_owner", "openal__app__manager_8h.html#a8fe6d947bfa3935351e64f0ad48d0493", null ],
+    [ "openal_claim_pin", "openal__app__manager_8h.html#a48e76000e608257d30f7d76ba7d250e8", null ],
+    [ "openal_current_app", "openal__app__manager_8h.html#abe56ddffa45a93121ceefc9646575311", null ],
+    [ "openal_kill_app", "openal__app__manager_8h.html#ac4b2fab1c072d5090975d08c95012873", null ],
+    [ "openal_start_app", "openal__app__manager_8h.html#a0d8415d916a1a582d6ea266b7563b753", null ],
+    [ "adc_mutex", "openal__app__manager_8h.html#a8252ccdc72feb0db94161c858a8832a3", null ],
+    [ "app_data_mutex", "openal__app__manager_8h.html#a0f068b3849f388133a8d18c58151bebe", null ],
+    [ "openal_app_data", "openal__app__manager_8h.html#abda0a6cb3ede8cdeae4b1371382e41b7", null ],
+    [ "openal_pin_registry", "openal__app__manager_8h.html#a52014f54fe3ccb97f6a93813927466b1", null ],
+    [ "pin_configuration_mutex", "openal__app__manager_8h.html#a29533f65e0634aa6e86e857ee47a604b", null ],
+    [ "pin_registry_mutex", "openal__app__manager_8h.html#aedf8fffed6f6598bf317db36390a3717", null ]
+];
