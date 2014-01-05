@@ -1,0 +1,190 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>lbrClient Package &mdash; OpenVisualizer 1.6 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.6',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OpenVisualizer 1.6 documentation" href="index.html" />
+    <link rel="next" title="moteConnector Package" href="moteConnector.html" />
+    <link rel="prev" title="eventBus Package" href="eventBus.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="moteConnector.html" title="moteConnector Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="eventBus.html" title="eventBus Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="lbrclient-package">
+<h1>lbrClient Package<a class="headerlink" href="#lbrclient-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-openvisualizer.lbrClient.lbrClient">
+<span id="lbrclient-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">lbrClient</span></tt> Module<a class="headerlink" href="#module-openvisualizer.lbrClient.lbrClient" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient">
+<em class="property">class </em><tt class="descclassname">openvisualizer.lbrClient.lbrClient.</tt><tt class="descname">lbrClient</tt><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></tt></p>
+<dl class="attribute">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.AUTHTIMEOUT">
+<tt class="descname">AUTHTIMEOUT</tt><em class="property"> = 5.0</em><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.AUTHTIMEOUT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_AUTHENTICATING">
+<tt class="descname">STATUS_AUTHENTICATING</tt><em class="property"> = 'authenticating'</em><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_AUTHENTICATING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_CONNECTED">
+<tt class="descname">STATUS_CONNECTED</tt><em class="property"> = 'connected'</em><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_CONNECTED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_CONNECTING">
+<tt class="descname">STATUS_CONNECTING</tt><em class="property"> = 'connecting'</em><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_CONNECTING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_DISCONNECTED">
+<tt class="descname">STATUS_DISCONNECTED</tt><em class="property"> = 'disconnected'</em><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.STATUS_DISCONNECTED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.connect">
+<tt class="descname">connect</tt><big>(</big><em>lbrAddr</em>, <em>lbrPort</em>, <em>netname</em><big>)</big><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.connect" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.disconnect">
+<tt class="descname">disconnect</tt><big>(</big><em>reason</em><big>)</big><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.disconnect" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.getPrefix">
+<tt class="descname">getPrefix</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.getPrefix" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.getStats">
+<tt class="descname">getStats</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.getStats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.lbrClient.lbrClient.lbrClient.send">
+<tt class="descname">send</tt><big>(</big><em>lowpan</em><big>)</big><a class="headerlink" href="#openvisualizer.lbrClient.lbrClient.lbrClient.send" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">lbrClient Package</a><ul>
+<li><a class="reference internal" href="#module-openvisualizer.lbrClient.lbrClient"><tt class="docutils literal"><span class="pre">lbrClient</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="eventBus.html"
+                        title="previous chapter">eventBus Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="moteConnector.html"
+                        title="next chapter">moteConnector Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/lbrClient.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="moteConnector.html" title="moteConnector Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="eventBus.html" title="eventBus Package"
+             >previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Regents of the University of California.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
