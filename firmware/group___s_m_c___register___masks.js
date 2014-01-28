@@ -1,0 +1,27 @@
+var group___s_m_c___register___masks =
+[
+    [ "SMC_PMCTRL_LPWUI_MASK", "group___s_m_c___register___masks.html#ga13fe417a536c3dc080bb978a13a6364d", null ],
+    [ "SMC_PMCTRL_LPWUI_SHIFT", "group___s_m_c___register___masks.html#ga923f713c8f946601de6acd8088624b20", null ],
+    [ "SMC_PMCTRL_RUNM", "group___s_m_c___register___masks.html#gaa375b91daca0dd7f4b1452da903b5bdc", null ],
+    [ "SMC_PMCTRL_RUNM_MASK", "group___s_m_c___register___masks.html#ga1a456925e291d6d53f4891b25fcaf8eb", null ],
+    [ "SMC_PMCTRL_RUNM_SHIFT", "group___s_m_c___register___masks.html#ga8f8dc472f4a4b6ad1babae518c44d55e", null ],
+    [ "SMC_PMCTRL_STOPA_MASK", "group___s_m_c___register___masks.html#gadd72ad662b62a7b51225b529fef2c77a", null ],
+    [ "SMC_PMCTRL_STOPA_SHIFT", "group___s_m_c___register___masks.html#gadfe89210f121f10b74f2fba55f059e1d", null ],
+    [ "SMC_PMCTRL_STOPM", "group___s_m_c___register___masks.html#gaa2ea36f819a21ef6b513564dc1453958", null ],
+    [ "SMC_PMCTRL_STOPM_MASK", "group___s_m_c___register___masks.html#ga8df79d8a16a6d12e3b343eec59d9453c", null ],
+    [ "SMC_PMCTRL_STOPM_SHIFT", "group___s_m_c___register___masks.html#gaac7423086f31a8fbbfc8d18b1a876f26", null ],
+    [ "SMC_PMPROT_ALLS_MASK", "group___s_m_c___register___masks.html#ga79d87e312be895d4f2bdfdda8c947600", null ],
+    [ "SMC_PMPROT_ALLS_SHIFT", "group___s_m_c___register___masks.html#gac6cb1305b9cb329a8bb903036893db11", null ],
+    [ "SMC_PMPROT_AVLLS_MASK", "group___s_m_c___register___masks.html#ga62e9f3c7e74a3e5b80b0fae8a896640d", null ],
+    [ "SMC_PMPROT_AVLLS_SHIFT", "group___s_m_c___register___masks.html#gad625b387a627eb3a69f3a26edc0096b8", null ],
+    [ "SMC_PMPROT_AVLP_MASK", "group___s_m_c___register___masks.html#ga30602dafb393b5d9c52f0c75e1d78210", null ],
+    [ "SMC_PMPROT_AVLP_SHIFT", "group___s_m_c___register___masks.html#gae13777e671c1caf2d10809999574fed4", null ],
+    [ "SMC_PMSTAT_PMSTAT", "group___s_m_c___register___masks.html#ga27d1d3c05772950ce55e5ad4d2a998e3", null ],
+    [ "SMC_PMSTAT_PMSTAT_MASK", "group___s_m_c___register___masks.html#ga2574f973caed7a43c1d0b69888866f63", null ],
+    [ "SMC_PMSTAT_PMSTAT_SHIFT", "group___s_m_c___register___masks.html#gaa4083ab43677e6a1b6832f6607a5ef0e", null ],
+    [ "SMC_VLLSCTRL_PORPO_MASK", "group___s_m_c___register___masks.html#ga44691ea357e857b84a0f2f6db808ae0d", null ],
+    [ "SMC_VLLSCTRL_PORPO_SHIFT", "group___s_m_c___register___masks.html#ga255471752ad43100216590dba76a5a0e", null ],
+    [ "SMC_VLLSCTRL_VLLSM", "group___s_m_c___register___masks.html#ga1358fb0c1720e22d38d6fccaf0cdfd34", null ],
+    [ "SMC_VLLSCTRL_VLLSM_MASK", "group___s_m_c___register___masks.html#ga4f4e91c4841316ab1eae1a74c0091ff4", null ],
+    [ "SMC_VLLSCTRL_VLLSM_SHIFT", "group___s_m_c___register___masks.html#ga67af6c7ed0835ed408cf511e8b9c9b13", null ]
+];
