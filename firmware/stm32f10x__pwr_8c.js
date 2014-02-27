@@ -1,0 +1,27 @@
+var stm32f10x__pwr_8c =
+[
+    [ "CR_CWUF_Set", "stm32f10x__pwr_8c.html#a17780aa6472597ee970b15b269387543", null ],
+    [ "CR_DBP_BB", "stm32f10x__pwr_8c.html#a799ab60bdbcfc1076cf2d7f206d09b0c", null ],
+    [ "CR_DS_Mask", "stm32f10x__pwr_8c.html#a47c9b5c1625e34454ac1b3d0ad46c687", null ],
+    [ "CR_OFFSET", "stm32f10x__pwr_8c.html#afa1d3d0ea72132df651c76fc1bdffffc", null ],
+    [ "CR_PDDS_Set", "stm32f10x__pwr_8c.html#a8fadfa061b0d098b5d6e925b1417432f", null ],
+    [ "CR_PLS_Mask", "stm32f10x__pwr_8c.html#ab9783f6696feb37f56d710b019efec03", null ],
+    [ "CR_PVDE_BB", "stm32f10x__pwr_8c.html#a49f51ef8285a6be76fd204d49a00709c", null ],
+    [ "CSR_EWUP_BB", "stm32f10x__pwr_8c.html#aaff864595f697850b19173b0bca991b0", null ],
+    [ "CSR_OFFSET", "stm32f10x__pwr_8c.html#a984cbe73312b6d3d355c5053763d499a", null ],
+    [ "DBP_BitNumber", "stm32f10x__pwr_8c.html#a36ff45d972bf94f31f172fd53cf44d23", null ],
+    [ "EWUP_BitNumber", "stm32f10x__pwr_8c.html#a94fe0520e8f9b71fa2b99c0565ec70ea", null ],
+    [ "PVDE_BitNumber", "stm32f10x__pwr_8c.html#a17d618eb800c401ef9c6789c9374eaf8", null ],
+    [ "PWR_OFFSET", "stm32f10x__pwr_8c.html#a7f88bce73931300319824f22578f90de", null ],
+    [ "SCB_SysCtrl", "stm32f10x__pwr_8c.html#a863243ec7348b8105c4cd9dca8cc70d6", null ],
+    [ "SysCtrl_SLEEPDEEP_Set", "stm32f10x__pwr_8c.html#ab9d897f0fdedb284936969ddc1659fd4", null ],
+    [ "PWR_BackupAccessCmd", "stm32f10x__pwr_8c.html#a0741aea35572b1a75f82b74de12df800", null ],
+    [ "PWR_ClearFlag", "stm32f10x__pwr_8c.html#ac91b39cc8688c9b76f398bb0db037ac0", null ],
+    [ "PWR_DeInit", "stm32f10x__pwr_8c.html#ad03a0aac7bc3bc3a9fd012f3769a6990", null ],
+    [ "PWR_EnterSTANDBYMode", "stm32f10x__pwr_8c.html#a00ddae00a9c327b81b24d2597b0052f3", null ],
+    [ "PWR_EnterSTOPMode", "stm32f10x__pwr_8c.html#acf70fd4c72f3205ca467c1bfffe4c3b7", null ],
+    [ "PWR_GetFlagStatus", "stm32f10x__pwr_8c.html#a2989577fefa86748f3755bffac9f8b7f", null ],
+    [ "PWR_PVDCmd", "stm32f10x__pwr_8c.html#a42cad476b816e0a33594a933b3ed1acd", null ],
+    [ "PWR_PVDLevelConfig", "stm32f10x__pwr_8c.html#a6bb60d8b668041f8ae8d6eb8ced7e61a", null ],
+    [ "PWR_WakeUpPinCmd", "stm32f10x__pwr_8c.html#ae5fd6f9336ef8c60d5483651cb0d1a00", null ]
+];
