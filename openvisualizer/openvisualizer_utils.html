@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>openvisualizer_utils Module &mdash; OpenVisualizer 1.6 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.6',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OpenVisualizer 1.6 documentation" href="index.html" />
+    <link rel="next" title="RPL Package" href="RPL.html" />
+    <link rel="prev" title="openType Package" href="openType.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="RPL.html" title="RPL Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="openType.html" title="openType Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-openvisualizer.openvisualizer_utils">
+<span id="openvisualizer-utils-module"></span><h1>openvisualizer_utils Module<a class="headerlink" href="#module-openvisualizer.openvisualizer_utils" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.buf2int">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">buf2int</tt><big>(</big><em>buf</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.buf2int" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts some consecutive bytes of a buffer into an integer. 
+Big-endianness is assumed.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>buf</strong> &#8211; [in] Byte array.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.byteinverse">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">byteinverse</tt><big>(</big><em>b</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.byteinverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.calculateCRC">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">calculateCRC</tt><big>(</big><em>payload</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.calculateCRC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.calculateFCS">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">calculateFCS</tt><big>(</big><em>rpayload</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.calculateFCS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.calculatePseudoHeaderCRC">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">calculatePseudoHeaderCRC</tt><big>(</big><em>src</em>, <em>dst</em>, <em>length</em>, <em>nh</em>, <em>payload</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.calculatePseudoHeaderCRC" title="Permalink to this definition">¶</a></dt>
+<dd><p>See these references:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www-net.cs.umass.edu/kurose/transport/UDP.html">http://www-net.cs.umass.edu/kurose/transport/UDP.html</a></li>
+<li><a class="reference external" href="http://tools.ietf.org/html/rfc1071">http://tools.ietf.org/html/rfc1071</a></li>
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/User_Datagram_Protocol#IPv6_PSEUDO-HEADER">http://en.wikipedia.org/wiki/User_Datagram_Protocol#IPv6_PSEUDO-HEADER</a></li>
+</ul>
+</dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatAddr">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatAddr</tt><big>(</big><em>addr</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatAddr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatBuf">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatBuf</tt><big>(</big><em>buf</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatBuf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Format a bytelist into an easy-to-read string. For example:</p>
+<p><tt class="docutils literal"><span class="pre">[0xab,0xcd,0xef,0x00]</span> <span class="pre">-&gt;</span> <span class="pre">'(4B)</span> <span class="pre">ab-cd-ef-00'</span></tt></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatCrashMessage">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatCrashMessage</tt><big>(</big><em>threadName</em>, <em>error</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatCrashMessage" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatCriticalMessage">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatCriticalMessage</tt><big>(</big><em>error</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatCriticalMessage" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatIPv6Addr">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatIPv6Addr</tt><big>(</big><em>addr</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatIPv6Addr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatStringBuf">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatStringBuf</tt><big>(</big><em>buf</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatStringBuf" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.formatThreadList">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">formatThreadList</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.formatThreadList" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.openvisualizer_utils.hex2buf">
+<tt class="descclassname">openvisualizer.openvisualizer_utils.</tt><tt class="descname">hex2buf</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#openvisualizer.openvisualizer_utils.hex2buf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a string of hex caracters into a byte list. For example:</p>
+<p><tt class="docutils literal"><span class="pre">'abcdef00'</span> <span class="pre">-&gt;</span> <span class="pre">[0xab,0xcd,0xef,0x00]</span></tt></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s</strong> &#8211; [in] The string to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A list of integers, each element in [0x00..0xff].</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="openType.html"
+                        title="previous chapter">openType Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="RPL.html"
+                        title="next chapter">RPL Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/openvisualizer_utils.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="RPL.html" title="RPL Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="openType.html" title="openType Package"
+             >previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Regents of the University of California.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
