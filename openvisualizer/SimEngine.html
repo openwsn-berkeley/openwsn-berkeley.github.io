@@ -1,0 +1,431 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>SimEngine Package &mdash; OpenVisualizer 1.6 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.6',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OpenVisualizer 1.6 documentation" href="index.html" />
+    <link rel="next" title="openVisualizerApp Directory" href="openVisualizerApp.html" />
+    <link rel="prev" title="RPL Package" href="RPL.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="openVisualizerApp.html" title="openVisualizerApp Directory"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="RPL.html" title="RPL Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="simengine-package">
+<h1>SimEngine Package<a class="headerlink" href="#simengine-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-openvisualizer.SimEngine.IdManager">
+<span id="idmanager-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">IdManager</span></tt> Module<a class="headerlink" href="#module-openvisualizer.SimEngine.IdManager" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.SimEngine.IdManager.IdManager">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.IdManager.</tt><tt class="descname">IdManager</tt><a class="headerlink" href="#openvisualizer.SimEngine.IdManager.IdManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>The module which assigns ID to the motes.</p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.IdManager.IdManager.getId">
+<tt class="descname">getId</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.IdManager.IdManager.getId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-openvisualizer.SimEngine.LocationManager">
+<span id="locationmanager-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">LocationManager</span></tt> Module<a class="headerlink" href="#module-openvisualizer.SimEngine.LocationManager" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.SimEngine.LocationManager.LocationManager">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.LocationManager.</tt><tt class="descname">LocationManager</tt><a class="headerlink" href="#openvisualizer.SimEngine.LocationManager.LocationManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>The module which assigns locations to the motes.</p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.LocationManager.LocationManager.getLocation">
+<tt class="descname">getLocation</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.LocationManager.LocationManager.getLocation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-openvisualizer.SimEngine.MoteHandler">
+<span id="motehandler-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">MoteHandler</span></tt> Module<a class="headerlink" href="#module-openvisualizer.SimEngine.MoteHandler" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.SimEngine.MoteHandler.MoteHandler">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.MoteHandler.</tt><tt class="descname">MoteHandler</tt><big>(</big><em>mote</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.MoteHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></tt></p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.MoteHandler.MoteHandler.getId">
+<tt class="descname">getId</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.MoteHandler.getId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.MoteHandler.MoteHandler.getLocation">
+<tt class="descname">getLocation</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.MoteHandler.getLocation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.MoteHandler.MoteHandler.handleEvent">
+<tt class="descname">handleEvent</tt><big>(</big><em>functionToCall</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.MoteHandler.handleEvent" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.MoteHandler.MoteHandler.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.MoteHandler.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.MoteHandler.MoteHandler.setLocation">
+<tt class="descname">setLocation</tt><big>(</big><em>lat</em>, <em>lon</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.MoteHandler.setLocation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.SimEngine.MoteHandler.notifId">
+<tt class="descclassname">openvisualizer.SimEngine.MoteHandler.</tt><tt class="descname">notifId</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.notifId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="openvisualizer.SimEngine.MoteHandler.readNotifIds">
+<tt class="descclassname">openvisualizer.SimEngine.MoteHandler.</tt><tt class="descname">readNotifIds</tt><big>(</big><em>headerPath</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.MoteHandler.readNotifIds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Contextual parent must call this method before other use of mote handler.</p>
+<p><tt class="docutils literal"><span class="pre">headerPath</span></tt> Path to openwsnmodule_obj.h, containing notifIds</p>
+<p>Required since this module cannot know where to find the header file.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-openvisualizer.SimEngine.Propagation">
+<span id="propagation-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">Propagation</span></tt> Module<a class="headerlink" href="#module-openvisualizer.SimEngine.Propagation" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.Propagation.</tt><tt class="descname">Propagation</tt><big>(</big><em>simTopology</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="eventBus.html#openvisualizer.eventBus.eventBusClient.eventBusClient" title="openvisualizer.eventBus.eventBusClient.eventBusClient"><tt class="xref py py-class docutils literal"><span class="pre">openvisualizer.eventBus.eventBusClient.eventBusClient</span></tt></a></p>
+<p>The propagation model of the engine.</p>
+<dl class="attribute">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation.SIGNAL_WIRELESSTXEND">
+<tt class="descname">SIGNAL_WIRELESSTXEND</tt><em class="property"> = 'wirelessTxEnd'</em><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation.SIGNAL_WIRELESSTXEND" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation.SIGNAL_WIRELESSTXSTART">
+<tt class="descname">SIGNAL_WIRELESSTXSTART</tt><em class="property"> = 'wirelessTxStart'</em><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation.SIGNAL_WIRELESSTXSTART" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation.createConnection">
+<tt class="descname">createConnection</tt><big>(</big><em>fromMote</em>, <em>toMote</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation.createConnection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation.deleteConnection">
+<tt class="descname">deleteConnection</tt><big>(</big><em>fromMote</em>, <em>toMote</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation.deleteConnection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation.retrieveConnections">
+<tt class="descname">retrieveConnections</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation.retrieveConnections" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.Propagation.Propagation.updateConnection">
+<tt class="descname">updateConnection</tt><big>(</big><em>fromMote</em>, <em>toMote</em>, <em>pdr</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.Propagation.Propagation.updateConnection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-openvisualizer.SimEngine.SimEngine">
+<span id="simengine-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">SimEngine</span></tt> Module<a class="headerlink" href="#module-openvisualizer.SimEngine.SimEngine" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.SimEngine.</tt><tt class="descname">SimEngine</tt><big>(</big><em>simTopology=''</em>, <em>loghandler=&lt;logging.NullHandler object at 0x01D80210&gt;</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>The main simulation engine.</p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.getMoteHandler">
+<tt class="descname">getMoteHandler</tt><big>(</big><em>rank</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.getMoteHandler" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.getMoteHandlerById">
+<tt class="descname">getMoteHandlerById</tt><big>(</big><em>moteId</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.getMoteHandlerById" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.getNumMotes">
+<tt class="descname">getNumMotes</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.getNumMotes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.getStats">
+<tt class="descname">getStats</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.getStats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.indicateFirstEventPassed">
+<tt class="descname">indicateFirstEventPassed</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.indicateFirstEventPassed" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.indicateNewMote">
+<tt class="descname">indicateNewMote</tt><big>(</big><em>newMoteHandler</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.indicateNewMote" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.isRunning">
+<tt class="descname">isRunning</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.isRunning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.pause">
+<tt class="descname">pause</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.pause" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.pauseOrDelay">
+<tt class="descname">pauseOrDelay</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.pauseOrDelay" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.resume">
+<tt class="descname">resume</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.resume" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.setDelay">
+<tt class="descname">setDelay</tt><big>(</big><em>delay</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.setDelay" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.start">
+<tt class="descname">start</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngine.step">
+<tt class="descname">step</tt><big>(</big><em>numSteps</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngine.step" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngineStats">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.SimEngine.</tt><tt class="descname">SimEngineStats</tt><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngineStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngineStats.getDurationRunning">
+<tt class="descname">getDurationRunning</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngineStats.getDurationRunning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngineStats.indicateStart">
+<tt class="descname">indicateStart</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngineStats.indicateStart" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.SimEngine.SimEngineStats.indicateStop">
+<tt class="descname">indicateStop</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.SimEngine.SimEngineStats.indicateStop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-openvisualizer.SimEngine.TimeLine">
+<span id="timeline-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">TimeLine</span></tt> Module<a class="headerlink" href="#module-openvisualizer.SimEngine.TimeLine" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.TimeLine.</tt><tt class="descname">TimeLine</tt><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></tt></p>
+<p>The timeline of the engine.</p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine.cancelEvent">
+<tt class="descname">cancelEvent</tt><big>(</big><em>moteId</em>, <em>desc</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine.cancelEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cancels all events identified by their description</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>desc</strong> &#8211; A unique description (a string) of this event.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The number of events canceled.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine.getCurrentTime">
+<tt class="descname">getCurrentTime</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine.getCurrentTime" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine.getEvents">
+<tt class="descname">getEvents</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine.getEvents" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine.getStats">
+<tt class="descname">getStats</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine.getStats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLine.scheduleEvent">
+<tt class="descname">scheduleEvent</tt><big>(</big><em>atTime</em>, <em>moteId</em>, <em>cb</em>, <em>desc</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLine.scheduleEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an event into the timeline</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>atTime</strong> &#8211; The time at which this event should be called.</li>
+<li><strong>cb</strong> &#8211; The function to call when this event happens.</li>
+<li><strong>desc</strong> &#8211; A unique description (a string) of this event.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLineEvent">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.TimeLine.</tt><tt class="descname">TimeLineEvent</tt><big>(</big><em>moteId</em>, <em>atTime</em>, <em>cb</em>, <em>desc</em><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLineEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLineStats">
+<em class="property">class </em><tt class="descclassname">openvisualizer.SimEngine.TimeLine.</tt><tt class="descname">TimeLineStats</tt><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLineStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLineStats.getNumEvents">
+<tt class="descname">getNumEvents</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLineStats.getNumEvents" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="openvisualizer.SimEngine.TimeLine.TimeLineStats.incrementEvents">
+<tt class="descname">incrementEvents</tt><big>(</big><big>)</big><a class="headerlink" href="#openvisualizer.SimEngine.TimeLine.TimeLineStats.incrementEvents" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">SimEngine Package</a><ul>
+<li><a class="reference internal" href="#module-openvisualizer.SimEngine.IdManager"><tt class="docutils literal"><span class="pre">IdManager</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-openvisualizer.SimEngine.LocationManager"><tt class="docutils literal"><span class="pre">LocationManager</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-openvisualizer.SimEngine.MoteHandler"><tt class="docutils literal"><span class="pre">MoteHandler</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-openvisualizer.SimEngine.Propagation"><tt class="docutils literal"><span class="pre">Propagation</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-openvisualizer.SimEngine.SimEngine"><tt class="docutils literal"><span class="pre">SimEngine</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-openvisualizer.SimEngine.TimeLine"><tt class="docutils literal"><span class="pre">TimeLine</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="RPL.html"
+                        title="previous chapter">RPL Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="openVisualizerApp.html"
+                        title="next chapter">openVisualizerApp Directory</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/SimEngine.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="openVisualizerApp.html" title="openVisualizerApp Directory"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="RPL.html" title="RPL Package"
+             >previous</a> |</li>
+        <li><a href="index.html">OpenVisualizer 1.6 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Regents of the University of California.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
